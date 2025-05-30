@@ -1,2 +1,3 @@
-FROM alpine:latest
-CMD echo "Hello, World from Docker CI!"
+FROM busybox:latest
+CMD httpd -f -p 80
+
